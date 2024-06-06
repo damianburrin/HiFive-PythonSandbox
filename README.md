@@ -38,3 +38,33 @@ Don Robinson
 Miodrag Milanovic
 Zain Ali
 KlikaTech
+
+**Using Your board**
+![image](https://github.com/damianburrin/Hi5-PythonSandbox/assets/18092613/54c01c2a-13cf-4b53-89d2-ac64e41436b1)
+
+The first thing you will want to do is update your board.  
+The final version of MicroPython that I have is the version that came with the unreleased HiFive Updater.
+Use the update all.  This will not only update the bootloader and micropython firmware but will also importantly update the EPS32 software so it becomes accessible via MicroPython.
+**Caveat**  Now a quick caveat here.  I recommend  doing the update and then disconnecting the board and the updating again.  In my recolaections there was a problem with the wifi update saying it had worked but then not actually allowing a connection.  This was due to a bug in the JLink version.  Updating will replace the Jlink version and then the second update should successfully update the wifi correctly.
+
+If you get "asserion error" while calling the ESP32 this was due to this error and is normally fixed by re-updating.
+
+**Uploading your code**
+![image](https://github.com/damianburrin/Hi5-PythonSandbox/assets/18092613/391888a8-1fbb-49ed-b04a-b96a3d0f5f7a)
+
+YOu cannot put python files onto the HiFive.  They need to be in HEX format.  The tools in the manual upload folder are there to acheive this.  
+Simply put the files into a folder, save the python file in the same folder and then edit the docombine.bat file
+![image](https://github.com/damianburrin/Hi5-PythonSandbox/assets/18092613/eb36d180-b1c5-44d4-bbcd-05e3b845ca6c)
+You will need to change the two highlighted sections.  First to the name of the file you want to convert and the second to what you want to call the hex file
+Once you run the docombine.bat file it will combine your python file with micropyhon into a hex file that you can just drag and drop onto your hifive.  (I recommend doing this in shell - CMD as you will see any error messages and completion messages)
+
+**MU for HiFive**
+One thing I really tried to get developped was an external programming IDE.  An Alpha resease of MU with HiFive support was forked but never released.
+![image](https://github.com/damianburrin/Hi5-PythonSandbox/assets/18092613/de18ef57-6357-43cb-99d1-e215154cdb7c)
+If you install this version of Mu you will have a Hifive mode
+![image](https://github.com/damianburrin/Hi5-PythonSandbox/assets/18092613/d2e54df6-fe62-4501-a734-4eea3ea52fbf)
+Which will let you upload files directly to the HiFive without needing to manually hexify them and also has a built in REPL to aid with testing so you won't be relient on putty
+![image](https://github.com/damianburrin/Hi5-PythonSandbox/assets/18092613/97163a7d-647d-45d1-bfb8-a4cb6acb3370)
+
+
+
