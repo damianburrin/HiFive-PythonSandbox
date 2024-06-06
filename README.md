@@ -30,7 +30,7 @@ Some of the resources I have collated here are in my opinion open source.  The M
 Some of the resources here a clearly copyright for the development teams whether these are MicroPython based or not and if asked by the developers i will remove these.  I will also email the contacts i still have to say these are online and if there is an issue I will remove them.  My goal here is to give you back a working device.  Which at the moment, despite buying these in good faith you no longer have.
 
 The following names are people who I recall working on this project under the direction of Kara Iconis at the BBC and are credtited with the work i'm hosting here.
-<li>tynker</li>
+<li>Tynker</li>
 <li>SiFive</li>
 <li>Sam Grove</li>
 <li>Michael Umansky</li>
@@ -60,7 +60,7 @@ If you get "asserion error" while calling the ESP32 this was due to this error a
 
 ![image](https://github.com/damianburrin/Hi5-PythonSandbox/assets/18092613/391888a8-1fbb-49ed-b04a-b96a3d0f5f7a)
 
-YOu cannot put python files onto the HiFive.  They need to be in HEX format.  The tools in the manual upload folder are there to acheive this.  
+You cannot put python files onto the HiFive.  They need to be in HEX format.  The tools in the manual upload folder are there to acheive this.  
 Simply put the files into a folder, save the python file in the same folder and then edit the docombine.bat file
 
 ![image](https://github.com/damianburrin/Hi5-PythonSandbox/assets/18092613/eb36d180-b1c5-44d4-bbcd-05e3b845ca6c)
