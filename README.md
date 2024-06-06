@@ -37,7 +37,7 @@ The following names are people who I recall working on this project under the di
 <li>Jeff Mullhausen/li>
 <li>Sarah Rodzevik</li>
 <li>Rshishko</li>
-</li>David Connelly</li>
+<li>David Connelly</li>
 <li>Don Robinson</li>
 <li>Miodrag Milanovic</li>
 <li>Zain Ali</li>
