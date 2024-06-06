@@ -8,7 +8,7 @@ import esp32
 # Set the WiFi Mode to 1
 esp32.set_wifi_mode(1)
 # Change to your WiFi and Password
-esp32.connect("MicroBitsandBobs.co.uk", "My TxGuArDiAn123")
+esp32.connect("SSID", "PASSWORD")
 
 # Function to get the weather of the given city
 def get_weather(city):

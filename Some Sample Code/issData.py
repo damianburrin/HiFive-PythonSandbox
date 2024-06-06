@@ -9,8 +9,8 @@ import esp32
 esp32.set_wifi_mode(1)
 
 # Connect to your WiFi, add in these values!
-wifi_name = "MicroBitsandBobs.co.uk"
-password = "My TxGuArDiAn123"
+wifi_name = ""
+password = ""
 esp32.connect(wifi_name, password)
 
 #host variables

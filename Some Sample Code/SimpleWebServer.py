@@ -4,7 +4,7 @@ import network
 sta_if = network.WLAN(network.STA_IF)
 sta_if.active()
 sta_if.active(True)
-sta_if.connect('MicroBitsandBobs.co.uk', 'My TxGuArDiAn123')
+sta_if.connect('SSID', 'PASSOWRD')
 sta_if.isconnected()
 #get the network condig
 ip=sta_if.ifconfig()
