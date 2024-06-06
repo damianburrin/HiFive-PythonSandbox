@@ -90,9 +90,9 @@ Finally here is some example code - the code here is tested as working on my hif
 
 ISSData.py  - This shows you how to connect your WIFI internet and use a GET request.  In this example it gives you a live upate of the people currently onboard the ISS
 
-The two weather data files shoe you how to use an API connect to its service and get the current weather.  In my case for Lincoln, UK
+The two weather data files show you how to use an API, connect to its service and get the current weather.  In my case for Lincoln, UK
 
-SimpleWebServer.py is a really simple example of how you can use the HiFive as a simple Webserver.  In this case it collects the data from the temperature sensor and then displays this to anyone on your network that has access to the IP address.  With a little work with dynamic DNS and IP forwarding this could be anyone in the world!!
+SimpleWebServer.py is a really simple example of how you can use the HiFive as a simple Webserver.  In this case it collects the data from the temperature sensor and then displays this to anyone on your network, via a webpage, that has access to the IP address.  With a little work with dynamic DNS and IP forwarding this could be anyone in the world!!
 
 **You Tube Support**
 
