@@ -40,7 +40,7 @@ The following names are people who I recall working on this project under the di
 </li>David Connelly</li>
 <li>Don Robinson</li>
 <li>Miodrag Milanovic</li>
-<li></li>Zain Ali</li>
+<li>Zain Ali</li>
 <li>KlikaTech</li>
 
 **Using Your board**
