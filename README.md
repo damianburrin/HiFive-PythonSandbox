@@ -1,4 +1,4 @@
-# Hi5 Python Sandbox
+# High5 Python Sandbox
 
 ![image](https://github.com/damianburrin/Hi5-PythonSandbox/assets/18092613/c33701bb-a6c9-4037-a7c6-736085977f69)
 
