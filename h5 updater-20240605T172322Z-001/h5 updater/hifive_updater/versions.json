@@ -1,0 +1,70 @@
+{
+  "release": {
+    "0.0.0": {
+      "esp32": {
+        "esp32_tag": "6cf0741",
+        "esp32date": "Jun  3 2020",
+        "esp_filename": "factory_esp32_200603.bin"
+      },
+      "fe310": {
+        "fe310type": "mp",
+        "fe310version": "2.0.58",
+        "fe310_filename": "mp_v2020-12-11.hex"
+      },
+      "segger": {
+        "segger_version": "J-Link OB-K22-SiFive",
+        "segger_date": "Oct 30 2020 11:20:31",
+        "segger_filename": ""
+      },
+      "bootloader": {
+        "bootloader_version": "2.40",
+        "bootloader_date": "09/10/2020",
+        "bootloader_filename": "boot_v.hex"
+      }
+    },
+    "0.0.2": {
+      "esp32": {
+        "esp32_tag": "8390bdb",
+        "esp32date": "Jan 12 2021",
+        "esp_filename": "esp32_120121.bin"
+      },
+      "fe310": {
+        "fe310type": "mp",
+        "fe310version": "2.0.68",
+        "fe310_filename": "mp_v2-0-68_d2021-02-12.hex"
+      },
+      "segger": {
+        "segger_version": "J-Link OB-K22-SiFive",
+        "segger_date": "Oct 30 2020 11:20:31",
+        "segger_filename": ""
+      },
+      "bootloader": {
+        "bootloader_version": "2.41",
+        "bootloader_date": "29/01/2020",
+        "bootloader_filename": "boot_2-41_2021-01-29.hex"
+      }
+    },
+    "1.0.0": {
+      "esp32": {
+        "esp32_tag": "8390bdb",
+        "esp32date": "Jan 12 2021",
+        "esp_filename": "esp32_120121.bin"
+      },
+      "fe310": {
+        "fe310type": "mp",
+        "fe310version": "2.0.69",
+        "fe310_filename": "mp_v2-0-69_d2021-02-26.hex"
+      },
+      "segger": {
+        "segger_version": "J-Link OB-K22-SiFive",
+        "segger_date": "Oct 30 2020 11:20:31",
+        "segger_filename": ""
+      },
+      "bootloader": {
+        "bootloader_version": "2.41",
+        "bootloader_date": "29/01/2020",
+        "bootloader_filename": "boot_2-41_2021-01-29.hex"
+      }
+    }
+  }
+}
