@@ -43,7 +43,8 @@ KlikaTech
 
 **Using Your board**
 
-![image](https://github.com/damianburrin/Hi5-PythonSandbox/assets/18092613/54c01c2a-13cf-4b53-89d2-ac64e41436b1)
+![image](https://github.com/damianburrin/Hi5-PythonSandbox/assets/18092613/040ed882-d376-4cc6-92fe-75ecaf91e58f)
+
 
 **The first thing you will want to do is update your board.**  
 The final version of MicroPython that I have is the version that came with the unreleased HiFive Updater.
