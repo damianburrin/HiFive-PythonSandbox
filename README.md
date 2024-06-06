@@ -30,7 +30,7 @@ Some of the resources I have collated here are in my opinion open source.  The M
 Some of the resources here a clearly copyright for the development teams whether these are MicroPython based or not and if asked by the developers i will remove these.  I will also email the contacts i still have to say these are online and if there is an issue I will remove them.  My goal here is to give you back a working device.  Which at the moment, despite buying these in good faith you no longer have.
 
 The following names are people who I recall working on this project under the direction of Kara Iconis at the BBC and are credtited with the work i'm hosting here.
-Sam Grove
+<li>Sam Grove
 Michael Umansky
 Jeff Mullhausen
 Sarah Rodzevik
@@ -39,7 +39,7 @@ David Connelly
 Don Robinson
 Miodrag Milanovic
 Zain Ali
-KlikaTech
+KlikaTech</li>
 
 **Using Your board**
 
@@ -49,7 +49,8 @@ KlikaTech
 **The first thing you will want to do is update your board.**  
 The final version of MicroPython that I have is the version that came with the unreleased HiFive Updater.
 Use the update all.  This will not only update the bootloader and micropython firmware but will also importantly update the EPS32 software so it becomes accessible via MicroPython.
-****Caveat**  Now a quick caveat here.  I recommend  doing the update and then disconnecting the board and the updating again.  In my recolaections there was a problem with the wifi update saying it had worked but then not actually allowing a connection.  This was due to a bug in the JLink version.  Updating will replace the Jlink version and then the second update should successfully update the wifi correctly.**
+
+**Caveat  Now a quick caveat here.  I recommend  doing the update and then disconnecting the board and the updating again.  In my recolaections there was a problem with the wifi update saying it had worked but then not actually allowing a connection.  This was due to a bug in the JLink version.  Updating will replace the Jlink version and then the second update should successfully update the wifi correctly.**
 
 If you get "asserion error" while calling the ESP32 this was due to this error and is normally fixed by re-updating.
 
