@@ -1,4 +1,4 @@
-# High5 Python Sandbox
+# HighFive Python Sandbox
 
 ![image](https://github.com/damianburrin/Hi5-PythonSandbox/assets/18092613/c33701bb-a6c9-4037-a7c6-736085977f69)
 
@@ -30,6 +30,8 @@ Some of the resources I have collated here are in my opinion open source.  The M
 Some of the resources here a clearly copyright for the development teams whether these are MicroPython based or not and if asked by the developers i will remove these.  I will also email the contacts i still have to say these are online and if there is an issue I will remove them.  My goal here is to give you back a working device.  Which at the moment, despite buying these in good faith you no longer have.
 
 The following names are people who I recall working on this project under the direction of Kara Iconis at the BBC and are credtited with the work i'm hosting here.
+<li>tynker</li>
+<li>SiFive</li>
 <li>Sam Grove</li>
 <li>Michael Umansky</li>
 <li>Jeff Mullhausen/li>
