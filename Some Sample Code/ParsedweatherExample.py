@@ -13,7 +13,7 @@ esp32.connect("SSID", "PASSWORD")
 # Function to get the weather of the given city
 def get_weather(city):
     esp32.conn_open_tcp("api.openweathermap.org", 80)
-    response = esp32.cip_send("GET /data/2.5/weather?q={}&units=metric&appid=cb8b01cbf03838344c64cd2439c55aae HTTP/1.0\r\nHost: api.openweathermap.org\r\nConnection: close\r\n\r\n".format(city))
+    response = esp32.cip_send("GET /data/2.5/weather?q={}&units=metric&appid=XXXXXXXX HTTP/1.0\r\nHost: api.openweathermap.org\r\nConnection: close\r\n\r\n".format(city))
     return response[1]
 
 # Gets the weather from the response text
