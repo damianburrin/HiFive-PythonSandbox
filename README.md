@@ -52,7 +52,8 @@ The following names are people who I recall working on this project under the di
 The final version of MicroPython that I have is the version that came with the unreleased HiFive Updater.
 Use the update all.  This will not only update the bootloader and micropython firmware but will also importantly update the EPS32 software so it becomes accessible via MicroPython.
 
-**Caveat  Now a quick caveat here.  I recommend  doing the update and then disconnecting the board and the updating again.  In my recolaections there was a problem with the wifi update saying it had worked but then not actually allowing a connection.  This was due to a bug in the JLink version.  Updating will replace the Jlink version and then the second update should successfully update the wifi correctly.**
+**Caveat  
+Now a quick caveat here.  I recommend  doing the update and then disconnecting the board and the updating again.  In my recolaections there was a problem with the wifi update saying it had worked but then not actually allowing a connection.  This was due to a bug in the JLink version.  Updating will replace the Jlink version and then the second update should successfully update the wifi correctly.**
 
 If you get "asserion error" while calling the ESP32 this was due to this error and is normally fixed by re-updating.
 
