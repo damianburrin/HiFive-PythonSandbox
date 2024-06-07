@@ -7,7 +7,7 @@
 
 In 2019 i was lucky enough to be approached by the BBC to help support the development of the HiFive Inventor.  The purpose of this board was meant as a fully supported coding tutorial environment using both block based and python based programming, all supported by the awesome guys at Tynker.  I worked on testing the development through many iterations until the boards final release and I was even able to get some of my Y7 students (who were the target age group) so early version that they could try out in the real world and they loved them.
 
-The development and launch was hit by covid but the board eventually went on sale in 2020.  The Dr Who these and learning materials were really go an
+The development and launch was hit by covid but the board eventually went on sale in 2020.  The Dr Who theme and learning materials were really good and had lots of potential to inspire young coders.
 
 The board was a ARM based board developed by SiFive and was made to be similar in format to the BBC Micro:bit, but this board had the additional features of built in ESP32 wifi chip making it a true IOT device.
 
