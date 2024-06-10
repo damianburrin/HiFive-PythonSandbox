@@ -1,9 +1,6 @@
 from hifive import *
 import esp32
 
-from hifive import *
-import esp32
-
 # Connect to WiFi
 # Set the WiFi Mode to 1
 esp32.set_wifi_mode(1)
