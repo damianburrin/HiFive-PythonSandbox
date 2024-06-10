@@ -57,7 +57,7 @@ The final binary of MicroPython that I have is the version that came with the un
 
 Use the update all option.  This will not only update the bootloader and micropython firmware but will also importantly update the EPS32 software so it becomes accessible via MicroPython.
 
-<mark>**Only update when it has successfuly identified the board and the label at the top of the window is green**</mark>
+<mark>Only update when it has successfuly identified the board and the label at the top of the window is green</mark>
 
 **Caveat
 
