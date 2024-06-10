@@ -60,7 +60,6 @@ Use the update all option.  This will not only update the bootloader and micropy
 <mark>**Only update when it has successfuly identified the board and the label at the top of the window is green**</mark>
 
 <B><I>Caveat
-
 Now a quick caveat here.  I recommend  doing the update and then disconnecting the board and the updating again. </B></I>
 
 **In my recolections there was a problem with the wifi update saying it had worked but then not actually allowing a connection.  This was due to a bug in the JLink version on the board and it not releasing the RTS pin after the update.  Updating will replace the Jlink version, then a second update should successfully update the wifi correctly.**
