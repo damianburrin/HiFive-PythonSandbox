@@ -62,7 +62,7 @@ Use the update all option.  This will not only update the bootloader and micropy
 <B><I>Caveat
 Now a quick caveat here.  I recommend  doing the update and then disconnecting the board and the updating again. </B></I>
 
-**In my recolections there was a problem with the wifi update saying it had worked but then not actually allowing a connection.  This was due to a bug in the JLink version on the board and it not releasing the RTS pin after the update.  Updating will replace the Jlink version, then a second update should successfully update the wifi correctly.**
+In my recolections there was a problem with the wifi update saying it had worked but then not actually allowing a connection.  This was due to a bug in the JLink version on the board and it not releasing the RTS pin after the update.  Updating will replace the Jlink version, then a second update should successfully update the wifi correctly.
 
 If you get "assertion error" while calling/using the ESP32 library this was due to this error and is normally fixed by re-updating (and erasing the user memory).
 
