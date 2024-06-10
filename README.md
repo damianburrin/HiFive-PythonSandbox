@@ -115,7 +115,7 @@ I have a playlist at https://www.youtube.com/playlist?list=PLvZXTXiQDCe7YSpDQmd2
 **Conclusion**
 I do hope this get users of HiFives back up and running.  I hope that the BBC, Tynker and the many developers do not ask for me to remove this material and I will try to support as many HiFive users as I can to make there devices usable for the future.
 
-I provide this only with the intent to help to users out there and for no commercial or personal gain.  If you find this helpful feel free to buy me a coffee or drop me a message
+I provide this only with the intent to help users out there and for no commercial or personal gain.  If you find this helpful feel free to buy me a coffee or drop me a message
 
 https://www.buymeacoffee.com/damianburrC
 
