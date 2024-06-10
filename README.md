@@ -108,7 +108,7 @@ The two weather data files show you how to use an API, connect to its service an
 
 SimpleWebServer.py is a really simple example of how you can use the HiFive as a simple Webserver.  In this case it collects the data from the temperature sensor and then displays this to anyone on your network, via a webpage, that has access to the IP address.  With a little work with dynamic DNS and IP forwarding this could be anyone in the world!!
 
-**You Tube Support**
+**YouTube Support**
 
 I have a playlist at https://www.youtube.com/playlist?list=PLvZXTXiQDCe7YSpDQmd2ksVSHb431ns7F
 
