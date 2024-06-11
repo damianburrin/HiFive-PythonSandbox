@@ -86,7 +86,7 @@ Once you run the docombine.bat file it will combine your python file with microp
 There seems to be an issue after updating where still getting assertion errors when using wifi.  It appears this is something to do with the Hexify process when you combine it with the version of MicroPython  (mp_v2-0-69_d2021-02-26.hex)
 However if you use Mu to do the update it works fine (despite being the same version of MicroPython) or if you manually copy over the mp_v2-0-69_d2021-02-26.hex version after you've done a hexify and upload.
 
-Not sure why but i'd recommned using Mu anyway***</mark>
+Not sure why but i'd recommned using Mu anyway <mark>
 
 HERE is a complete walkthrough of doing an update on the stock HiFive without  a previous micropython library being installed (ie stock or only used with Tynker Blocks)
 
