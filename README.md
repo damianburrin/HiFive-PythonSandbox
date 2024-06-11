@@ -82,6 +82,17 @@ You will need to change the two highlighted sections.  First part to the name of
 
 Once you run the docombine.bat file it will combine your python file with micropyhon binary into a hex file that you can just drag and drop onto your HiFive.  (I recommend running docombine in shell - CMD as you will see any error messages and completion messages produced)
 
+<mark>**ADENDUM**
+There seems to be an issue after updating where still getting assertion errors when using wifi.  It appears this is something to do with the Hexify process when you combine it with the version of MicroPython  (mp_v2-0-69_d2021-02-26.hex)
+However if you use Mu to do the update it works fine (despite being the same version of MicroPython) or if you manually copy over the mp_v2-0-69_d2021-02-26.hex version after you've done a hexify and upload.
+
+Not sure why but i'd recommned using Mu anyway***</mark>
+
+HERE is a complete walkthrough of doing an update on the stock HiFive without  a previous micropython library being installed (ie stock or only used with Tynker Blocks)
+
+https://youtu.be/ChCxER0mkvY
+
+
 **MU for HiFive**
 
 One thing I really tried to get developped was an external programming IDE.  I felt that tihs was important for the long-term use of the boards by users young and old.  An Alpha resease of MU with HiFive support was forked from the Mu repository, it worked quite well but never released.
