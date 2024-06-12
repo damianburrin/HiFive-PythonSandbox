@@ -74,7 +74,7 @@ You might have to scan for the board multiple times as it is a bit flakey and do
 ![image](https://github.com/damianburrin/Hi5-PythonSandbox/assets/18092613/391888a8-1fbb-49ed-b04a-b96a3d0f5f7a)
 
 You cannot put python files onto a HiFive.  They need to be in a binary HEX format.  The tools in the manual upload folder are there to acheive this.  
-Simply put the files into a folder, save the python file in the same folder and then edit the docombine.bat file
+Simply put the files into a folder with the mp_v2-0-69_d2021-02-26.hex binary, save the python file in the same folder and then edit the docombine.bat file
 
 ![image](https://github.com/damianburrin/Hi5-PythonSandbox/assets/18092613/eb36d180-b1c5-44d4-bbcd-05e3b845ca6c)
 
@@ -84,7 +84,7 @@ Once you run the docombine.bat file it will combine your python file with microp
 
 <mark>**ADDENDUM**
 There seems to be an issue after updating where you still get assertion errors when using wifi.  It appears this is something to do with the Hexlify process when you combine it with the version of MicroPython  (mp_v2-0-69_d2021-02-26.hex)
-However if you use Mu to do the update it works fine (despite being the same version of MicroPython) or if you manually copy over the mp_v2-0-69_d2021-02-26.hex version after you've done a Hexlify and upload.
+However if you use Mu to do the upload it works fine (despite being the same version of MicroPython) or if you manually copy over the mp_v2-0-69_d2021-02-26.hex version after you've done a Hexlify and upload.
 
 Not sure why but i'd recommned using Mu anyway <mark>
 
