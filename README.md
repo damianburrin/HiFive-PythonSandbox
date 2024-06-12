@@ -82,7 +82,7 @@ You will need to change the two highlighted sections.  First part to the name of
 
 Once you run the docombine.bat file it will combine your python file with micropyhon binary into a hex file that you can just drag and drop onto your HiFive.  (I recommend running docombine in shell - CMD as you will see any error messages and completion messages produced)
 
-<mark>**ADENDUM**
+<mark>**ADDENDUM**
 There seems to be an issue after updating where you still get assertion errors when using wifi.  It appears this is something to do with the Hexlify process when you combine it with the version of MicroPython  (mp_v2-0-69_d2021-02-26.hex)
 However if you use Mu to do the update it works fine (despite being the same version of MicroPython) or if you manually copy over the mp_v2-0-69_d2021-02-26.hex version after you've done a Hexlify and upload.
 
